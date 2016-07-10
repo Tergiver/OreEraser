@@ -1,5 +1,5 @@
 
-script.on_event(defines.events.on_player_selected_area, function(event, player_index)
+script.on_event(defines.events.on_player_selected_area, function(event)
 		local player = game.players[event.player_index]
 		local area = event.area
 		local item = event.item

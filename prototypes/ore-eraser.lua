@@ -9,12 +9,12 @@ data:extend(
     order = "c[automated-construction]-b[deconstruction-planner]",
     stack_size = 1,
 	stackable = false,
-    selection_color = { r = 1, g = 0, b = 0 },
-    alt_selection_color = { r = 1, g = 0, b = 0 },
-    selection_mode = {"deconstruct"},
-    alt_selection_mode = {"deconstruct"},
-    selection_cursor_box_type = "not-allowed",
-    alt_selection_cursor_box_type = "not-allowed"
+    selection_color = { r = 0, g = 1, b = 0 },
+    alt_selection_color = { r = 0, g = 1, b = 0 },
+    selection_mode = {"any-entity"},
+    alt_selection_mode = {"any-entity"},
+    selection_cursor_box_type = "pair",
+    alt_selection_cursor_box_type = "pair"
   },
   {
 	type = "recipe",

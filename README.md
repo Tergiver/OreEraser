@@ -5,6 +5,7 @@ To use it, craft an Ore Eraser, found on the Production tab. It functions like a
 
 v1.3.0
   - Added alternate mode (hold shift before dragging a box) which outputs the information, but does not remove the resources.
+  
 v1.2.0
   - Changed output text to use localized name and include the total amount of resource removed in brackets.
 

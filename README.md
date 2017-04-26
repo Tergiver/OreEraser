@@ -1,7 +1,10 @@
 # OreEraser
-A Factorio mod that allows you to remove ore and other resources from the world. Specifically it removes entities defined as type 'resource'. In vanilla Factorio, resources are: iron, copper, coal, stone, and oil.
+A Factorio mod that allows you to remove ore and other resources from the world. Specifically it removes entities defined as type 'resource'. In vanilla Factorio, resources are: iron, copper, coal, stone, oil, and uranium.
 
 To use it, craft an Ore Eraser, found on the Production tab. It functions like a Blueprint or Deconstruction Planner. With the Ore Eraser in hand, click and drag a rectangle encompassing the resource you want to remove.
+
+v1.3.3
+  - Fixed localization issue
 
 v1.3.2
   - Updated for Factorio version 0.15

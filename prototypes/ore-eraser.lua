@@ -22,7 +22,6 @@ data:extend(
 	enabled = "true",
 	ingredients =
 	{
-		{"coal", 1}
 	},
 	result = "ore-eraser"
   }

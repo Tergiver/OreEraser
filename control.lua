@@ -1,3 +1,4 @@
+require("util")
 
 function on_player_selected_area(event, do_destroy)
 	local player = game.players[event.player_index]
@@ -33,7 +34,7 @@ function on_player_selected_area(event, do_destroy)
 			end
 			table.insert(args, text .. v.count .. " ")
 			table.insert(args, {v.localised_name})
-			table.insert(args, " [" .. v.amount .. "]")
+			table.insert(args, " [" .. util.format_number(v.amount, true) .. "]")
 		end
 		if #args > 1 then
 			player.print(args)

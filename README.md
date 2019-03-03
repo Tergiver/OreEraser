@@ -3,6 +3,9 @@ A Factorio mod that allows you to remove ore and other resources from the world.
 
 To use it, open the blueprint library and click on the Ore Eraser item. It functions like a Blueprint or Deconstruction Planner. With the Ore Eraser in hand, click and drag a rectangle encompassing the resource you want to remove.
 
+v1.4.3
+  - Added thumbnail
+  
 v1.4.2
   - Updated for Factorio version 0.17
   - Removed recipe. Is now found on blueprint library

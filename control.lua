@@ -51,11 +51,7 @@ script.on_event(defines.events.on_player_alt_selected_area, function(event)
 	end)
 
 script.on_event(defines.events.on_player_dropped_item, function(event)
-		if event.entity ~= nil then
-			if event.entity.stack ~= nil then
-				if event.entity.stack.name == "ore-eraser" then
-					event.entity.stack.clear()
-				end
-			end
+		if event.entity ~= nil and event.entity.stack ~= nil and event.entity.stack.name == "ore-eraser" then
+			event.entity.stack.clear()
 		end
 	end)

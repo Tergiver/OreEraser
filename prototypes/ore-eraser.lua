@@ -4,7 +4,7 @@ data:extend(
     type = "selection-tool",
     name = "ore-eraser",
     icon = "__ore-eraser__/graphics/ore-eraser.png",
-    flags = {"goes-to-quickbar"},
+    flags = {},
     subgroup = "tool",
     order = "c[automated-construction]-b[deconstruction-planner]",
     stack_size = 1,
@@ -15,16 +15,8 @@ data:extend(
     selection_mode = {"any-entity"},
     alt_selection_mode = {"any-entity"},
     selection_cursor_box_type = "pair",
-    alt_selection_cursor_box_type = "pair"
-  },
-  {
-	type = "recipe",
-	name = "ore-eraser",
-	enabled = "true",
-	ingredients =
-	{
-	},
-	result = "ore-eraser"
+    alt_selection_cursor_box_type = "pair",
+	show_in_library = true
   }
 }
 )

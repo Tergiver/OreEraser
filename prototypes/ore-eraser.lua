@@ -17,6 +17,37 @@ data:extend(
     selection_cursor_box_type = "pair",
     alt_selection_cursor_box_type = "pair",
 	show_in_library = true
+  },
+  {
+    type = 'shortcut',
+    name = 'give-ore-eraser',
+    order = 'c[automated-construction]-b[deconstruction-planner]',
+    action = 'create-blueprint-item',
+    localised_name = {'item-name.ore-eraser'},
+    technology_to_unlock = 'construction-robotics',
+    item_to_create = 'ore-eraser',
+    style = 'red',
+    icon = {
+      filename = '__ore-eraser__/graphics/ore-eraser.png',
+      priority = 'extra-high-no-scale',
+      size = 32,
+      scale = 1,
+      flags = {'icon'}
+    },
+    small_icon = {
+      filename = '__ore-eraser__/graphics/ore-eraser.png',
+      priority = 'extra-high-no-scale',
+      size = 24,
+      scale = 1,
+      flags = {'icon'}
+    },
+    disabled_small_icon = {
+      filename = '__ore-eraser__/graphics/ore-eraser-disabled.png',
+      priority = 'extra-high-no-scale',
+      size = 24,
+      scale = 1,
+      flags = {'icon'}
+    }
   }
 }
 )

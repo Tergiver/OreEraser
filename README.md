@@ -9,7 +9,7 @@ Forked for minor updates and maintenance in 2020 by nordee [github.com/nordee]
 [nordee]
 
 v2.0 2/3/2020
- - Updated Factorio version to 0.18
+ - Updated for Factorio version 0.18
  - Added Ore Eraser to Quickbar 
 
 [Tergiver]

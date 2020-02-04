@@ -6,9 +6,13 @@ To use it, open the blueprint library and click on the Ore Eraser item. It funct
 Originally created wholly by Tergiver [github.com/Tergiver]
 Forked for minor updates and maintenance in 2020 by nordee [github.com/nordee] 
 
-v2.0
+[nordee]
+
+v2.0 2/3/2020
  - Updated Factorio version to 0.18
  - Added Ore Eraser to Quickbar 
+
+[Tergiver]
 
 v1.4.3
   - Added thumbnail

@@ -1,1 +1,1 @@
-require("prototypes.ore-eraser")
+require("prototypes.ore-erase")

@@ -1,9 +1,9 @@
 {
   "name": "ore-erase",
-  "version": "2.0",
+  "version": "0.18",
   "factorio_version": "0.18",
   "title": "Ore Eraser",
   "author": "nordee",
   "contact": "mnordhaus@hotmail.com",
-  "description": "Adds the Ore Eraser item which allows you to erase ore from the map."
+  "description": "Adds the Ore Eraser item, which allows you to erase ore from the map."
 }

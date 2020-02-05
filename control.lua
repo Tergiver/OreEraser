@@ -1,7 +1,6 @@
 require("util")
 
 function on_player_selected_area(event, do_destroy)
-	print("entering do_destroy")
 	local player = game.players[event.player_index]
 	local item = event.item
 	local entities = event.entities

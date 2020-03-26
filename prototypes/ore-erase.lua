@@ -2,8 +2,8 @@ data:extend(
 {
   {
     type = "selection-tool",
-    name = "ore-eraser",
-    icon = "__ore-eraser__/graphics/ore-eraser.png",
+    name = "ore-erase",
+    icon = "__ore-erase__/graphics/ore-erase.png",
     flags = {},
     subgroup = "tool",
     order = "c[automated-construction]-b[deconstruction-planner]",

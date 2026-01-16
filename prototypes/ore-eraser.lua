@@ -4,19 +4,38 @@ data:extend(
     type = "selection-tool",
     name = "ore-eraser",
     icon = "__ore-eraser__/graphics/ore-eraser.png",
-    flags = {},
+    flags = { "not-stackable", "only-in-cursor", "spawnable" },
+    auto_recycle = false,
     subgroup = "tool",
-    order = "c[automated-construction]-b[deconstruction-planner]",
     stack_size = 1,
 	icon_size = 32,
-	stackable = false,
-    selection_color = { r = 0, g = 1, b = 0 },
-    alt_selection_color = { r = 0, g = 0, b = 1 },
-    selection_mode = {"any-entity"},
-    alt_selection_mode = {"any-entity"},
-    selection_cursor_box_type = "pair",
-    alt_selection_cursor_box_type = "pair",
-	show_in_library = true
+	show_in_library = true,
+    select =
+    {
+      border_color = {0, 1, 0},
+      mode = {"any-entity"},
+	  entity_type_filters = { "resource" },
+      cursor_box_type = "entity",
+    },
+    alt_select =
+    {
+      border_color = {1, 1, 0},
+      mode = {"any-entity"},
+	  entity_type_filters = { "resource" },
+      cursor_box_type = "entity",
+    }
+  },
+  {
+    type = "shortcut",
+    name = "ore-eraser",
+    action = "spawn-item",
+    localised_name = {"ore-eraser"},
+    item_to_spawn = "ore-eraser",
+    icon = "__ore-eraser__/graphics/ore-eraser.png",
+    icon_size = 32,
+    small_icon = "__ore-eraser__/graphics/ore-eraser.png",
+    small_icon_size = 32,
+    style = "default"
   }
 }
 )
